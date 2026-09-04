@@ -1,7 +1,7 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { persistReducer, persistStore } from 'redux-persist';
 import { storage } from "../storage/mmkv";
-import authReducer from "./slice/auth/authReducer";
+import remindersReducer from "./slice/reminders/remindersSlice";
 
 let reactotron: any;
 
@@ -12,15 +12,14 @@ if (__DEV__) {
 const persistConfig = {
   key: 'root',
   storage: storage,
-  whitelist: ['auth'],
+  whitelist: ['reminders'],
 };
 
 const rootReducer = combineReducers({
-  auth: authReducer,
+  reminders: remindersReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
-
 
 export const store = configureStore({
   reducer: persistedReducer,

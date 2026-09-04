@@ -9,6 +9,6 @@ export type RootStackParamList = {
 
 
 export type TabStackParamList = {
-  [ScreenNames.HOME]: undefined;
+  [ScreenNames.HOME]: { reminderId?: string } | undefined;
   [ScreenNames.SEARCH]: undefined;
 };

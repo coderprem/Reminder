@@ -1,4 +1,12 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+This is a [**React Native**](https://reactnative.dev) project for learning **local notifications** with [Notifee](https://notifee.app).
+
+## Notifications guide
+
+Read the step-by-step code walkthrough:
+
+**[docs/NOTIFICATIONS_GUIDE.md](./docs/NOTIFICATIONS_GUIDE.md)**
+
+---
 
 # Getting Started
 

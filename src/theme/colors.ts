@@ -1,6 +1,6 @@
 export const Colors = {
   brandPrimary: '#6B00DD',
-  brandSecondary: '#E10092',
+  brandSecondary: '#513d95',
   brandAccentBlue: '#7F85F5',
   brandAccentOrange: '#F08300',
   brandAccentRed: '#E3000F',
